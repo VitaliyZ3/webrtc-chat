@@ -5,7 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "test": "nodemon .",
-    "start": "node ."
+    "start": "node .",
+    "install": "npm i"
   },
   "keywords": [
     "WebRTC",
@@ -16,6 +17,7 @@
   "author": "full_droper",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.16",
     "socket.io-client": "^4.5.1",
     "socket.io-p2p": "^2.2.0",
     "ws": "^8.7.0"
