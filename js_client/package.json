@@ -7,7 +7,17 @@
     "test": "nodemon .",
     "start": "node ."
   },
-  "keywords": ["WebRTC", "Chat", "API", "JWT"],
+  "keywords": [
+    "WebRTC",
+    "Chat",
+    "API",
+    "JWT"
+  ],
   "author": "full_droper",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^4.5.1",
+    "socket.io-p2p": "^2.2.0",
+    "ws": "^8.7.0"
+  }
 }
