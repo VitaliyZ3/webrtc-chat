@@ -17,6 +17,7 @@
   "author": "full_droper",
   "license": "ISC",
   "dependencies": {
+    "iconv-lite": "^0.6.3",
     "nodemon": "^2.0.16",
     "socket.io-client": "^4.5.1",
     "socket.io-p2p": "^2.2.0",
